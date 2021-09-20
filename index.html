@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CV</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+			<header class="header">
+				<div class="column">
+					<figure class="header-avatar">
+						<img src="./assets/avatar.jpg" class="header-picture" alt="Header avatar">
+					</figure>
+				</div>
+				<div class="column column-main column-header">
+					<h1 class="header-title">
+						Maxim Danko
+					</h1>
+					<h3 class="header-subtitle">
+						Student
+					</h3>
+				</div>
+			</header>
+			<main class="main">
+				<div class="column">
+					<section class="section contact">
+						<h2 class="block-title">contacts</h2>
+						<ul class="contact-wrapper">
+							<li class="contact-block">
+								<div class="contact-image contact-image-github"></div>
+								<div class="contact-text">
+									<a href="https://github.com/maxdanko2000" class="contact-link">maxdanko2000</a>
+								</div>
+							</li>
+							<li class="contact-block">
+								<div class="contact-image contact-image-vk"></div>
+								<div class="contact-text">
+									<a href="https://vk.com/mdanko1996" class="contact-link">vk.com/mdanko1996</a>
+								</div>
+							</li>
+							<li class="contact-block">
+								<div class="contact-image contact-image-email"></div>
+								<div class="contact-text">
+									<a href="https://yandex.ru.maxdanko12345" class="contact-link">yandex.ru/maxdanko12345</a>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<section class="section education">
+						<h2 class="block-title">education</h2>
+						<div class="education-block">
+							<div class="date education-date">2007-2018</div>
+							<p class="education-text">Dubrovno High school</p>
+						</div>
+						<div class="education-block">
+							<div class="date education-date">2018-2022</div>
+							<p class="education-text">Vitebsk State Technological University</p>
+						</div>
+					</section>
+					<section class="section skills">
+						<h2 class="block-title">skills</h2>
+						<ul class="skills-wrapper">
+							<li class="skills-block">
+								<p class="skills-text">html</p>
+								<ul class="skills-list">
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+								</ul>
+							</li>
+							<li class="skills-block">
+								<p class="skills-text">css</p>
+								<ul class="skills-list">
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+								</ul>
+							</li>
+							<li class="skills-block">
+								<p class="skills-text">basic js</p>
+								<ul class="skills-list">
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+								</ul>
+							</li>
+							<li class="skills-block">
+								<p class="skills-text">Git&GitHub</p>
+								<ul class="skills-list">
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+									<li class="skills-list-item skills-list-item-gray"></li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section class="section languages">
+						<h2 class="block-title">foreign languages</h2>
+						<ul class="lang-list">
+							<li class="lang-list-item">
+								<p class="lang-item">English(A2)</p>
+							</li>
+							<li class="lang-list-item">
+								<p class="lang-item">Belarusian(B2)</p>
+							</li>
+						</ul>
+					</section>
+				</div>
+				<div class="column column-main">
+					<section class="section code-example">
+						<h2 class="block-title">Code example</h2>
+						<pre>
+						<code class="javascript">
+var Cat = (function () {
+  var cats = {
+    count: 0,
+    totalWeight: 0,
+    avgWeight: 0
+  }
+  
+  function Cat (name, weight) {
+    if (!name || !weight) {
+      throw new Error('Both `name` and `weight` should be provided');
+    }
+    cats.count++;
+    this.name = name;
+
+    Object.defineProperty(this, 'weight', {
+      get: function () {
+        return this._weight || 0;
+      },
+      set: function (val) {
+        cats.totalWeight = cats.totalWeight - this.weight + val;
+        cats.avgWeight =  cats.totalWeight / cats.count;
+        return this._weight = val;
+      }
+    });
+
+    this.weight = weight;
+  }
+  
+  Cat.averageWeight = function () {
+    return cats.avgWeight;
+  }
+  
+  return Cat;
+}())				
+						</code>
+					</pre>
+					</section>
+					<section class="section about">
+						<h2 class="block-title">about me</h2>
+						<p class="about-text"> Hi. I am a graduate student of a technological university. my preferred direction is frontend development. I want to work in a team of experienced specialists and get invaluable experience.</p>
+					</section>
+					<section class="section work">
+						<h2 class="block-title">work experience</h2>
+						<p class="work-text">I still have no experience working in the company and such grandiose projects that can be shown.</p>
+					</section>
+					<section class="section hobby">
+						<h2 class="block-title">hobbies</h2>
+						<div class="hobby-container">
+							<div class="hobby-row">
+								<div class="hobby-block">
+									<div class="hobby-dot"></div>
+									<p class="hobby-text">computer games</p>
+								</div>
+								<div class="hobby-block">
+									<div class="hobby-dot"></div>
+									<p class="hobby-text">listen to music</p>
+								</div>
+							</div>
+							<div class="hobby-row">
+								<div class="hobby-block">
+									<div class="hobby-dot"></div>
+									<p class="hobby-text">drawing</p>
+								</div>
+								<div class="hobby-block">
+									<div class="hobby-dot"></div>
+									<p class="hobby-text">electronics repair</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer-inner">
+					<div class="footer-block">
+						<a href="https://github.com/maxdanko2000" class="footer-social"></a>
+					</div>
+					<div class="footer-block">
+						<div class="footer-text">
+							<img src="./assets/rs-logo.svg" class="footer-image" alt="">
+							<a href="https://rs.school/js/" class="footer-link"></a>
+							 2021
+						</div>
+					</div>
+					<div class="footer-block">
+						<a href="https://youtu.be/Hl4IfQ2bEVw" class="footer-social footer-social-yt"></a>
+					</div>
+				</div>
+			</footer>
+	</div>	
+</body>
+</html>
