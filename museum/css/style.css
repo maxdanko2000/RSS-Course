@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
+:root {
+    --bg-dark: #030303;
+    --dark-red: #710707;
+    --font-gold: #9D8665;
+    --font-white: #FFFFFF;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.dark__section {
+    width: 100%;
+    padding: 0 240px;
+    background-color: var(--bg-dark);
+}
+
+.header {
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-dark);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    display: flex;
+    background-image: url(./assets/svg/header-logo.png);
+}
+
+.logo__text {
+    display: flex;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: var(--font-white);
+}
+
+.nav {
+    display: flex;
+    width: 775px;
+}
+
+.navigation__list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.nav__item {
+    display: flex;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.welcome__page {
+    display: flex;
+    width: 1440px;
+    height: 810px;
+}
+
+.welcome__content {
+    padding-top: 150px;
+}
+
+.white__title__text {
+
+    /* width: 593px;
+    height: 180px; */
+    white-space: nowrap;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--font-white);
+}
+
+.welcome__text {
+    width: 445px;
+    height: 33px;
+    padding: 25px 0 75px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: var(--font-white);
+}
+
+.btn__discover {
+    display: flex;
+    width: 360px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-red);
+    border-radius: 10px;
+}
+
+.btn__discover__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.welcome__bg__image {
+    position: relative;
+    width: 1000px;
+    height: 750px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(/museum/assets/img/welcome-slider/1.jpg) no-repeat calc(100%);
+}
+
+.welcome__slider {
+    /* position: absolute;
+    width: 600px;
+    height: 120px;
+    background: var(--bg-dark);
+    border: 1px solid greenyellow;
+     */
+}
+
+.light__section {
+    width: 1920px;
+    height: 992px;
+    padding: 0 240px;
+    background-color: var(--font-white);
+
+}
+
+.virtual__tour__page {
+    display: flex;
+    padding: 75px 0;
+    flex-direction: column;
+}
+
+.gold__title__text {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: var(--font-gold);
+
+
+}
+
+.gold__title__text::after {
+    content: "";
+    display: block;
+    width: 1440px;
+    padding-bottom: 25px;
+    border-bottom: 4px solid var(--dark-red);
+}
+
+.virtual__tour__cards {
+    display: flex;
+    padding: 75px 0;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.block__items1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.block__items2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 72px;
+}
+
+.block__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px 0 0;
+}
+
+
+.block__item__title {
+    padding: 23px 0 0 0;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.block__item__title::after {
+    content: "";
+    display: block;
+    width: 300px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid var(--dark-red);
+}
+
+.block__item__context1 {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    padding: 10px 0 10px 0;
+
+    color: #000000;
+}
+
+.block__item__context2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
