@@ -1,0 +1,343 @@
+
+.container_tickets{
+    width: 1920px;
+    height: 893px;
+    background-color: #FFFFFF;
+}
+
+.container_tickets_info {
+    width: 1440px;
+    height: 743px;
+    padding: 75px 240px;
+}
+
+.container_tickets_info_tittle_pos {
+    width: 1440px;
+    height: 90px;
+    position: relative;
+}
+
+.container_tickets_info_tittle_pos::after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #710707;
+}
+
+.container_buy_tickets {
+    width: 1440px;
+    height: 550px;
+    padding-top: 103px;
+    display: flex;
+}
+
+.container_image_tickets {
+    width: 720px;
+    height: 550px;
+}
+
+.container_ticket_type {
+    width: 270px;
+    height: 212px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.radio_input {
+    appearance: none;
+    position: absolute;
+    margin: 0;
+}
+
+.radio_label {
+    padding-left: 41px;
+    cursor: pointer;
+}
+
+.ticket_type_radio {
+    position: relative;
+    width: 270px;
+    height: 25px;
+}
+
+.radio_label::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 2px;
+    left: -1px;
+    z-index: 1;
+}
+
+.radio_label::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0;
+
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    z-index: 2;
+}
+
+.radio_input:checked + .radio_label::after {
+    opacity: 1;
+}
+
+.ticket_type_text_size {
+    width: 156px;
+    height: 33px;
+}
+
+.container_ticket_amount {
+    width: 175px;
+    height: 442px;
+    padding-left: 207px;
+}
+
+.container_ticket_amount_div {
+    width: 150px;
+    height: 341px;
+    padding-left: 33px;
+}
+
+.number {
+    all: unset;
+    width: 3em;
+    color: black;
+    background-color: #FFFFFF;
+    width: 50px;
+    height:44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    padding-left: 13px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: none;
+    width:50px;
+    height:50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white;
+    width:50px;
+    height:50px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: black;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.basic_button {
+    display: flex;
+    padding-top: 7px;
+}
+
+.container_ticket_amount_text_basic_pos {
+    padding-top: 27px;
+}
+
+.container_ticket_amount_text_total_pos {
+    padding-top: 50px;
+}
+
+.container_ticket_amount_text_senior_pos {
+    padding-top: 11px;
+}
+
+.button_buy_now {
+    width: 175px;
+    height: 50px;
+    padding-top: 51px;
+    padding-left: 8px;
+}
+
+.button_buy_now_style {
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.button_buy_now_style:hover {
+    background-color: #9D8665;
+}
+
+.tickets_content {
+    display: flex;
+    width: 270px;
+    height: 211px;
+    padding-top: 52px;
+}
+
+.tickets_content_list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_ticket_amount_txt {
+    padding-left: 51px;
+}
+
+/* new amound form */
+
+.container_ticket_amount_content {
+    display: flex;
+    width: 154px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.amount_heading_div {
+    display: flex;
+    padding-left: 51px;
+}
+
+.amount_div {
+    display: flex;
+    padding-top: 26px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.amount_div_basic {
+    display: flex;
+    width: 150px;
+    height: 91px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.amount_div_basic_heading {
+    display: flex;
+}
+
+.amount_div_basic_content {
+    display: flex;
+    padding-top: 14px;
+}
+
+.amount_div_basic_content_btn {
+    display: flex;
+    height: 45px;
+    width: 144px;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+.btn_minus {
+    background-color: white;
+    color: black;
+    border: none;
+    width:50px;
+    height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.input_number {
+    all: unset;
+    width: 3em;
+    color: black;
+    background-color: #FFFFFF;
+    width: 50px;
+    height:44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.btn_plus {
+    background-color: white;
+    color: black;
+    border: none;
+    width:50px;
+    height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.amount_div_senior {
+    display: flex;
+    width: 150px;
+    height: 91px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 9px;
+}
+
+.amount_div_senior_heading {
+    display: flex;
+}
+
+.amount_div_senior_content {
+    display: flex;
+    padding-top: 14px;
+}
+
+.amount_div_senior_content_btn {
+    display: flex;
+    height: 45px;
+    width: 144px;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+.amount_total_div {
+    display: flex;
+    padding-top: 50px;
+}

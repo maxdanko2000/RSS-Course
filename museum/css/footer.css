@@ -1,0 +1,131 @@
+
+.container_footer {
+    width: 1920px;
+    height: 392px;
+    background-color: #030303;
+}
+
+.container_footer_content {
+    width: 1440px;
+    height: 107px;
+    padding: 75px 240px;
+    display: flex;
+}
+
+.container_footer_content_nav_section {
+    width: 366px;
+    height: 150px;
+    padding-left: 145px;
+    padding-top: 1px;
+}
+
+.footer_nav {
+    column-count: 2;
+    column-gap: 154px;
+}
+
+.nav_one {
+    width: 107px;
+    height: 50px;
+}
+
+.nav_two {
+    width: 106px;
+    height: 50px;
+    padding-left: 153px;
+}
+
+.nav_social {
+    width: 336px;
+    height: 48px;
+    padding-left: 396px;
+    padding-top: 88px;
+}
+
+.nav_social_club {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_img_youtube {
+    background-image: url("../assets/svg/Youtube.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.footer_img_insta {
+    background-image: url("../assets/svg/Instagram.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.footer_img_facebook {
+    background-image: url("../assets/svg/Facebook.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.footer_img_twitter {
+    background-image: url("../assets/svg/Twitter.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.footer_img_pint {
+    background-image: url("../assets/svg/Pinterest.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.footer_img_youtube:hover {
+    background-image: url("../assets/svg/Youtube_gold.svg");
+}
+
+.footer_img_pint:hover {
+    background-image: url("../assets/svg/Pinterest_gold.svg");
+}
+
+.footer_img_insta:hover {
+    background-image: url("../assets/svg/Instagram_gold.svg");
+}
+
+.footer_img_facebook:hover {
+    background-image: url("../assets/svg/Facebook_gold.svg");
+}
+
+.footer_img_twitter:hover {
+    background-image: url("../assets/svg/Twitter_gold.svg");
+}
+
+.border_box_social {
+    opacity: 0;
+}
+
+.footer2 {
+    width: 100%;
+    display: flex;
+}
+
+.footer2_content {
+    display: flex;
+    width: 1440px;
+    height: 24px;
+    padding: 43px 240px 50px 240px;
+}
+
+.footer2_content_items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer2_content_item_copyright {
+    display: flex;
+    
+}
+
+.footer2_content_item_rs {
+    padding-left: 31px;
+}
