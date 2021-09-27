@@ -1,0 +1,58 @@
+.container_contacts {
+    width: 1920px;
+    height: 1362px;
+    background-color: #FFFFFF;
+}
+
+.container_contacts_content {
+    width: 1440px;
+    height: 813px;
+    padding: 75px 240px;
+}
+
+.container_contacts_content_tittle {
+    position: relative;
+}
+
+
+.container_contacts_content_tittle::after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    right: 0;
+    top: 112px;
+    height: 3px;
+    background-color: #710707;
+}
+
+.container_contacts_content_address {
+    width: 1440px;
+    height: 620px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_contacts_content_address_why {
+    width: 282px;
+    height: 221px;
+}
+
+.container_contacts_content_address_why_pos {
+    width: 277px;
+    height: 117px;
+}
+
+.container_contacts_content_address_why_cont {
+    width: 282px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_contacts_content_address_map {
+    width: 960px;
+    height: 620px;
+}
