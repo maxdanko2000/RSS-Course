@@ -1,0 +1,71 @@
+.container_contacts {
+    height: 1362px;
+    background-color: #FFFFFF;
+}
+
+.contacts_photo {
+    width: 1920px;
+    height: 400px;
+}
+
+.parallax {
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/img/parallax.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container_contacts_content {
+    width: 1440px;
+    margin: 0 auto;
+    height: 813px;
+    padding: 75px 240px;
+}
+
+.container_contacts_content_tittle {
+    position: relative;
+}
+
+
+.container_contacts_content_tittle::after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    right: 0;
+    top: 115px;
+    height: 3px;
+    background-color: #710707;
+}
+
+.container_contacts_content_address {
+    width: 1440px;
+    height: 620px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_contacts_content_address_why {
+    width: 282px;
+    height: 221px;
+}
+
+.container_contacts_content_address_why_pos {
+    width: 277px;
+    height: 120px;
+}
+
+.container_contacts_content_address_why_cont {
+    width: 282px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_contacts_content_address_map {
+    width: 960px;
+    height: 620px;
+}

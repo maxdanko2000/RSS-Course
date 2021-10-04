@@ -1,0 +1,11 @@
+
+.wrapper_main {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper_section {
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+}

@@ -1,0 +1,766 @@
+@media screen and  (max-width: 768px) {
+    /* header */
+
+    .menu__btn {
+        top: 42px;
+        left: 715px;
+    }
+
+    .menu__box {
+        width: 100%;
+        height: 839px;
+        padding: 35px 55px;
+
+    }
+
+    .burger_img {
+        display: block;
+    }
+
+    .burger_line {
+        display: block;
+    }
+
+
+    ._nav_burger {
+        display: block;
+    }
+
+
+    .burger_img {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+
+    }
+
+    .burger_img_top {
+        width: 658px;
+        height: 194px;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .burger_img_bottom {
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .burger_line {
+        width: 100%;
+    }
+
+    .burger_img_bottom_left {
+        width: 319px;
+        height: 161px;
+    }
+
+    .burger_img_bottom_right {
+        width: 319px;
+        height: 161px;
+    }
+
+    .burger_menu {
+        width: 122px;
+        height: 263px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .welcome_position_text {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .welcome_position_text_fr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+
+    .welcome_slider_counter_font {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .bG {
+        height: 108px;
+        box-sizing: border-box;
+        padding: 34px 20px;
+    }
+
+    .navigation {
+        width: 728px;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .header_burger_768 {
+        display: flex;
+        width: 32px;
+        height: 18px;
+        padding-top: 12px;
+        cursor: pointer;
+        transition: all 1s ease-out;
+    }
+
+    .header_burger_768_svg:hover {
+        fill:#9d8665;
+    }
+
+    .header_burger_768:hover {
+        transform: scale(1.2);
+    }
+    
+    /* section welcome */
+    .welcome {
+        display: block;
+        height: auto;
+    }
+
+    .wrapper_section {
+        flex-direction: column;
+    }
+
+    .welcome_posit_img {
+        box-sizing: border-box;
+        left: 0;
+        padding: 0 20px;
+    }
+
+    .welcome_slider_container {
+        height: 100px;
+    }
+
+    .welcome_slider_container_wrapper {
+        padding: 30px 162px;
+    }
+    .welcome_slider_container {
+        width: 100%;
+    }
+
+    .welc_pos_img_monaliza {
+        width: 728px;
+        height: 546px;
+    }
+
+    .img_cont {
+        width: 728px;
+        height: 546px;
+    }
+
+    .welcome_position {
+        width: 400px;
+        height: 217px;
+        top: 2px;
+        left: 185px;
+    }
+
+    .welcome_position_padding_btn {
+        display: none;
+    }
+
+    .welcome_position_padding_fr {
+        padding-top: 0px;
+        padding-left: 34px;
+    }
+
+    .image_mona_768 {
+        display: flex;
+        width: 728px;
+        height: 546px;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+
+    .image_mona_768_img {
+        width: 728px;
+        height: 546px;
+    }
+
+    .welcome_slider_768 {
+        display: flex;
+        width: 401px;
+        padding-top: 30px;
+        padding-left: 182px;
+    }
+
+    .welcome_slider_counter2_item{
+        display: flex;
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff;
+    }
+
+    .welcome_slider_counter2 {
+        width: 159px;
+    }
+
+    /* section picture */
+
+
+    .container_visiting {
+        padding: 40px 20px;
+    }
+
+    .visiting_tittle_text {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .img_royal_palace {
+        width: 280px;
+        height: 180px;
+    }
+
+    ._text_sp {
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+
+    .card_text_info{
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0;
+    }
+
+    .card_text_tittle{
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+
+    .card_text_info_one {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .container_cards_o_position_card {
+        width: 280px;
+        height: 301px;
+        padding-top: 40px;
+    }
+
+    .img_royal_palace::after {
+        bottom: -62px;
+    }
+
+    .container_cards {
+        padding: 0 56px;
+        padding-top: 22px;
+        padding-bottom: 42px;
+    }
+
+    .size_img {
+        width: 280px;
+        height: 180px;
+    }
+
+    .picture_explore {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .container_explore_info_text {
+        display: none;
+    }
+
+    .container_explore_info {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 40px 20px;
+    }
+
+    .container_explore_info_position {
+        width: 100%;
+        height: 109px;
+    }
+
+    .explore_position_image {
+        width: 728px;
+        height: 707px;
+        padding-top: 9px;
+    }
+
+    /* section video */
+    .video_text {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+
+    .container_video_content {
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 40px 20px;
+    }
+
+    ._youtube {
+        display: none;
+    }
+
+    .position_player {
+        width: 728px;
+        height: 329px;
+        padding-top: 20px;
+    }
+
+    .display_video_position {
+        height: 53px;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .video_progress {
+        width: 486px;
+    }
+
+
+
+    ._keys {
+        display: block;
+        width: 728px;
+        height: 5px;
+    
+        position: absolute;
+        left: 18px;
+        top: 3551px;
+        z-index: 1;
+    }
+
+    .volume_range {
+        display: none;
+    }
+
+    .volume {
+        display: none;
+    }
+    
+    ._kill{
+        display: block;
+    }
+
+    .volume_768 {
+        display: flex;
+        width: 38px;
+        height: 30px;
+        border: none;
+        background-color: #000000;
+        position: relative;
+        cursor: pointer;
+        padding-top: 6px;
+    }
+
+    .video_play_center {
+        width: 80px;
+        height: 80px;
+        top: -205px;
+        left: 318px;
+    }
+
+    .video_play_center_svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .video_list_item_768 {
+        display: none;
+    }
+
+    .video_list_item {
+        width: 354px;
+        height: 199px;
+    }
+
+    .youtube_1 {
+        width: 354px;
+        height: 199px;
+    }
+
+    .video_list {
+        width: 728px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video_list_div {
+        width: 728px;
+        padding-top: 24px;
+    }
+
+    .video_list_slider {
+        width: 190px;
+        box-sizing: border-box;
+        padding-top: 26px;
+        padding-bottom: 44px;
+    }
+
+    /* section gallery */
+    .artGallery {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .container_gallery_heading {
+        padding-top: 39px;
+    }
+
+
+    
+    ._right {
+        display: none;
+    }
+
+    .container_gallery_items {
+        width: 728px;
+    }
+
+    ._left {
+        padding-top: 91px;
+        width: 352px;
+    }
+
+    ._middle {
+        padding-top: 41px;
+        width: 352px;
+    }
+
+    ._media2_none {
+        display: none;
+    }
+
+    .container_gallery_items {
+        width: 728px;
+        height: 1121px;
+    }
+
+    ._media2_size {
+        height: 351px;
+    }
+
+    .container_gallery_content  {
+        height: auto;
+    }
+
+    ._media2_size_max {
+        height: 440px;
+    }
+
+    ._media2_size_min {
+        height: 264px;
+    }
+
+    .min_left {
+        height: 191px;
+    }
+
+    .min_middle {
+        height: 40px;
+    }
+
+    /* section ticket */
+
+    .container_tickets_info_tittle {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+
+    .container_tickets_info {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 41px 20px;
+    }
+
+    .container_tickets_info_tittle_pos::after {
+        content: "";
+        position: absolute;
+        bottom: -22px;
+        width: 728px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background-color: #710707;
+    }
+
+    .container_image_tickets {
+        width: 444px;
+        height: 340px;
+    }
+
+    .img_img {
+        width: 444px;
+        height: 340px;
+    }
+
+    .container_ticket_amount_tittle_text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        color: #000000;
+    }
+
+    .container_buy_tickets {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-sizing: border-box;
+        padding-top: 61px;
+    }
+
+    .container_ticket_amount {
+        padding-left: 28px;
+    }
+
+    .amount_div {
+        display: flex;
+        padding-top: 37px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .amount_total_div {
+        padding-top: 32px;
+    }
+
+    .button_buy_now {
+        padding-left: 32px;
+        padding-top: 40px;
+    }
+
+    .container_tickets {
+        height: 633px;
+    }
+
+    .text_total {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 1.65px;
+        color: #000000;
+    }
+
+    /* section contacts */
+
+    .container_contacts_content_tittle_text {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #9D8665;
+    }
+
+    .parallax {
+        height: 300px;
+    }
+
+    .container_contacts_content {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 40px 20px;
+    }
+
+    .container_contacts_content_address_name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .container_contacts_content_tittle::after {
+        top: 80px;
+        width: 728px;
+    }
+
+    .container_contacts_content_address {
+        flex-direction: column;
+    }
+
+    .container_contacts_content_address  {
+        padding-top: 60px;
+    }
+
+    .container_contacts_content_address_why_cont {
+        padding-top: 41px;
+        width: 274px;
+        height: 99px;
+    }
+
+    .container_contacts_content_address_cont {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .container_contacts_content_address_map {
+        width: 728px;
+        height: 476px;
+        background-image: url(../assets/img/map768.jpg);
+    }
+
+    .container_contacts {
+        width: 100%;
+        height: 1225px;
+    }
+
+    /* footer */
+
+    .container_footer {
+        height: auto;
+    }
+
+    .container_footer_content {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        height: 301px;
+    }
+
+    .roboto_nav {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+    }
+
+    .container_footer_content_nav_section {
+        padding-top: 18px;
+        padding-left: 102px;
+    }
+
+    .footer_nav {
+        column-gap: 199px;
+    }
+
+    .li_size {
+        width: 30px;
+        height: 47px;
+    }
+
+    .nav_social {
+        padding: 0;
+        padding-left: 298px;
+        padding-top: 35px;
+        width: 340px;
+    }
+
+    .footer2_content {
+        padding: 35px 20px;
+    }
+
+    ._nav_burger {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    /* form */
+
+    .form {
+        display: none;
+        width: 590px;
+        height: 1479px;
+        top: 5159px;
+        left: 74px;
+    }
+
+    .form_wrapper {
+        padding:80px 30px 40px 30px;
+    }
+
+    .form_content {
+        display: flex;
+        width: 970px;
+        height: 663px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .booking_tickets_container {
+        display: flex;
+        width: 400px;
+        height: 663px;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 68px;
+        padding-bottom: 42px;
+    }
+
+    .button_back {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        padding-top: 30px;
+        position: absolute;
+        padding-left: 530px;
+    }
+
+
+
+}
