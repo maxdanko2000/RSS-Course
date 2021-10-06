@@ -596,6 +596,7 @@
     }
 
     .container_tickets_info_tittle_pos::after {
+        width: inherit;
         bottom: -22px;
     }
 
