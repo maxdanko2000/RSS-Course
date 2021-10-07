@@ -1,5 +1,4 @@
-
-.container_tickets{
+.container_tickets {
     height: 893px;
     background-color: #FFFFFF;
 }
@@ -7,7 +6,7 @@
 .container_tickets_info {
     width: 1440px;
     height: 743px;
-    margin: 0 auto  ;
+    margin: 0 auto;
     padding: 75px 240px;
 }
 
@@ -97,7 +96,7 @@
     z-index: 2;
 }
 
-.radio_input:checked + .radio_label::after {
+.radio_input:checked+.radio_label::after {
     opacity: 1;
 }
 
@@ -124,7 +123,7 @@
     color: black;
     background-color: #FFFFFF;
     width: 50px;
-    height:44px;
+    height: 44px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -138,8 +137,8 @@
     background-color: white;
     color: black;
     border: none;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -150,8 +149,8 @@
 
 .button2 {
     background-color: white;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     border: none;
     font-family: Roboto;
     font-style: normal;
@@ -193,7 +192,7 @@
     border: none;
     background-color: black;
     border-radius: 2px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .button_buy_now_style:hover {
@@ -270,7 +269,7 @@
     background-color: white;
     color: black;
     border: none;
-    width:50px;
+    width: 50px;
     height: 45px;
     font-family: Roboto;
     font-style: normal;
@@ -286,7 +285,7 @@
     color: black;
     background-color: #FFFFFF;
     width: 50px;
-    height:44px;
+    height: 44px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -300,7 +299,7 @@
     background-color: white;
     color: black;
     border: none;
-    width:50px;
+    width: 50px;
     height: 45px;
     font-family: Roboto;
     font-style: normal;
