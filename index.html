@@ -399,10 +399,38 @@
               </div>
             </div>
             <div class="welcome_posit_img">
-              <div class="img_cont">
+              <div class="img_cont img_cont_active">
                 <img
                   class="welc_pos_img_monaliza"
                   src="./assets/img/welcome-slider/1Mona.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="img_cont">
+                <img
+                  class="welc_pos_img_monaliza"
+                  src="./assets/img/welcome-slider/2.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="img_cont">
+                <img
+                  class="welc_pos_img_monaliza"
+                  src="./assets/img/welcome-slider/3.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="img_cont">
+                <img
+                  class="welc_pos_img_monaliza"
+                  src="./assets/img/welcome-slider/4.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="img_cont">
+                <img
+                  class="welc_pos_img_monaliza"
+                  src="./assets/img/welcome-slider/5.jpg"
                   alt="img"
                 />
               </div>
@@ -410,7 +438,13 @@
                 <div class="welcome_slider_container_wrapper">
                   <div class="welcome_slider_div">
                     <div class="welcome_slider_counter">
-                      <p class="welcome_slider_counter_font">01 | 05</p>
+                      <p class="welcome_slider_counter_font">
+                        <span class="cp cp_active">01 | 05</span>
+                        <span class="cp">02 | 05</span>
+                        <span class="cp">03 | 05</span>
+                        <span class="cp">04 | 05</span>
+                        <span class="cp">05 | 05</span>
+                      </p>
                     </div>
                     <div class="welcome_slider_counter2">
                       <div
@@ -422,7 +456,10 @@
                       <div class="welcome_slider_counter2_item"></div>
                     </div>
                     <div class="welcome_slider_arrows">
-                      <button class="welcome_slider_arr_left">
+                      <button
+                        id="welcome_slider_prev"
+                        class="welcome_slider_arr_left"
+                      >
                         <svg
                           width="30"
                           height="8"
@@ -437,7 +474,10 @@
                           />
                         </svg>
                       </button>
-                      <button class="welcome_slider_arr_right">
+                      <button
+                        id="welcome_slider_next"
+                        class="welcome_slider_arr_right"
+                      >
                         <svg
                           width="30"
                           height="8"
@@ -1447,5 +1487,6 @@
     <script src="./js/ticket.js"></script>
     <script src="./js/svg.js"></script>
     <script src="./js/burger.js"></script>
+    <script src="./js/welcome.js"></script>
   </body>
 </html>
