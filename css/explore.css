@@ -1,4 +1,3 @@
-
 .container_explore {
     height: 865px;
     background-color: #030303;
@@ -41,6 +40,15 @@
     background-color: #710707;
 }
 
-.explore_position_image {
-    padding-top: 15px;
+.rectangle_explore {
+    position: relative;
 }
+
+/* 
+
+.rectangle {
+    position: ab;
+    border-right: 2px solid red;
+    transition: all 0.3s ease 0s;
+    padding-top: 15px;
+} */
