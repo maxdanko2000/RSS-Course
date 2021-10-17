@@ -1,0 +1,21 @@
+@media screen and (max-width: 320px) {
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    .navigation {
+        width: 100%;
+        height: auto;
+        padding-top: 7em;
+        justify-content: center;
+    }
+
+    .nav-control {
+        margin: 0;
+    }
+
+    .slide-img img {
+        height: 113px;
+    }
+}

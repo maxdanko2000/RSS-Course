@@ -68,19 +68,32 @@ body {
     justify-content: end;
 }
 
+.nav-control {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
 .bar {
     width: 10px;
     height: 10px;
-    margin: 10px;
     cursor: pointer;
     background-color: royalblue;
     border-radius: 50%;
-    transition: all .4s ease;
+    transition: all .2s ease;
 }
 
 .bar:hover {
-    background-color: seashell;
+
+    background: none;
+    border: 2px solid royalblue;
+    transition: all .0s ease;
+    box-sizing: border-box;
 }
+
+.bar:focus {}
 
 input[name="r"] {
     display: none;
