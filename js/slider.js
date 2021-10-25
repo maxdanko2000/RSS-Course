@@ -14,7 +14,7 @@ function setBg() {
     console.log(bgNum);
     //morning
     if (hours >= 6 && hours <= 11) {
-        body.style.backgroundImage = `url('https://github.com/rolling-scopes-school/stage1-tasks/tree/assets/images/morning/${bgNum}.jpg')`;
+        body.style.backgroundImage = `url(./)`;
 
         //afternoon
     } else if (hours >= 12 && hours <= 17) {
