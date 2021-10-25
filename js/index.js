@@ -15,7 +15,8 @@ showTime();
 
 function showDate() {
     const dateText = new Date();
-    const currentDate = dateText.toLocaleDateString();
+    const options = { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' };
+    const currentDate = dateText.toLocaleDateString('en-En', options);
     date.textContent = currentDate;
 }
 
