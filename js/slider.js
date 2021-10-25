@@ -14,18 +14,16 @@ function setBg() {
     console.log(bgNum);
     //morning
     if (hours >= 6 && hours <= 11) {
-        body.style.backgroundImage = `url(./)`;
+        body.style.backgroundImage = `url(./assets/img/images/morning/${bgNum}.jpg)`;
 
         //afternoon
     } else if (hours >= 12 && hours <= 17) {
-        body.style.backgroundImage = `url('https://github.com/rolling-scopes-school/stage1-tasks/tree/assets/images/day/${bgNum}.jpg')`;;
-
+        body.style.backgroundImage = `url(./assets/img/images/day/${bgNum}.jpg)`;
         //evening
     } else if (hours >= 18 && hours <= 23) {
-        body.style.backgroundImage = `url('https://github.com/rolling-scopes-school/stage1-tasks/tree/assets/images/evening/${bgNum}.jpg')`;
-        //night
+        body.style.backgroundImage = `url(./assets/img/images/evening/${bgNum}.jpg)`;        //night
     } else if (hours >= 0 && hours <= 5) {
-        body.style.backgroundImage = `url('https://github.com/rolling-scopes-school/stage1-tasks/tree/assets/images/night/${bgNum}.jpg')`;
+        body.style.backgroundImage = `url(./assets/img/images/night/${bgNum}.jpg)`;
     }
 }
 setBg();
