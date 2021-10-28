@@ -56,6 +56,11 @@ body {
   transition: .3s;
 }
 
+.audio-title {
+  display: flex;
+  height: 30px;
+}
+
 .play-item:hover {
   opacity: 1;
 }

@@ -4,6 +4,8 @@ const btnPlayPrev = document.querySelector('.play-prev');
 const btnPlayNext = document.querySelector('.play-next');
 const btnPlay = document.querySelector('.play');
 const audioList = document.querySelector('.play-list');
+const title = document.querySelector('.audio-title');
+
 
 let isPlay = false;
 let playNum = 0;
@@ -31,6 +33,7 @@ setActive(audioList.children[playNum]);
 
 function playAudio() {
     btnPlay.classList.toggle('pause');
+    title.textContent = `${playList[playNum].title}`;
     audio.src = playList[playNum].src;
     if (!isPlay) {
         playMusic();
@@ -60,6 +63,7 @@ function playNext() {
         setActive(audioList.children[playNum]);
     }
     audio.src = playList[playNum].src;
+    title.textContent = `${playList[playNum].title}`;
     setActive(audioList.children[playNum]);
     playMusic();
 }
@@ -74,6 +78,7 @@ function playPrev() {
         setActive(audioList.children[playNum]);
     }
     audio.src = playList[playNum].src;
+    title.textContent = `${playList[playNum].title}`;
     setActive(audioList.children[playNum]);
     playMusic();
 }
