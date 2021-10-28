@@ -7,7 +7,7 @@ const audioList = document.querySelector('.play-list');
 
 let isPlay = false;
 let playNum = 0;
-let currAudio = audioList.children[playNum];
+
 
 const audio = new Audio();
 
