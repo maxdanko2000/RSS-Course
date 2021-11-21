@@ -1,0 +1,156 @@
+@import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 120px 20px 120px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    background-image: url('/assets/main-img/logo.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 150px;
+    margin: 0;
+    padding-top: 20px;
+    width: 250px;
+}
+
+.actists-section {
+    width: 422px;
+    height: 482px;
+    transition: 1s;
+}
+
+.actists-section:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.pictures-section {
+    width: 422px;
+    height: 482px;
+    transition: 1s;
+}
+
+.pictures-section:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.main-section-img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 415px;
+    width: 415px;
+
+}
+
+
+.main-section-artists {
+    background-image: url('/assets/main-img/artists-quiz.png');
+}
+
+.main-section-pictures {
+    background-image: url('/assets/main-img/pictures-quiz.png');
+}
+
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.buttons-settings {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 12px 37px 10px 85px;
+}
+
+.buttons-settings:before {
+    background-image: url(/assets/main-img/settings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 25px;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    transition: transform 1s ease;
+    width: 25px;
+}
+
+.buttons {
+    background-color: #661004;
+    border: none;
+    box-shadow: 1px 6px 11px 1px rgb(0 0 0 / 70%);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Acumin Variable Concept;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 55px;
+    min-width: 150px;
+    outline: none;
+    padding: 14px 7px 12px;
+    position: relative;
+    text-transform: capitalize;
+    transition: .5s ease;
+}
+
+.buttons:hover {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.footer {
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.text-rss {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 60px;
+    width: 166px;
+    background-image: url('/assets/main-img/3a4607274d5cf6e8f321.svg');
+}
