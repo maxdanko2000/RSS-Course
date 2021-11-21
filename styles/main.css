@@ -139,10 +139,9 @@ body {
     background-color: transparent;
     box-sizing: border-box;
     display: flex;
-    height: 70px;
     width: 100%;
     justify-content: space-around;
-    margin: 10px 0;
+    align-items: flex-end;
 }
 
 .text-rss {
