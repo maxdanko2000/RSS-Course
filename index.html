@@ -7,6 +7,8 @@
     <title>art-quiz</title>
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/text.css" />
+    <link rel="stylesheet" href="./styles/settings.css" />
+    <link rel="stylesheet" href="./styles/categories.css" />
   </head>
   <body>
     <div class="container">
@@ -14,7 +16,7 @@
         <div class="logo quiz-logo"></div>
       </header>
       <main class="main">
-        <div class="main-wrapper">
+        <div class="main-content">
           <div class="main-section">
             <div class="actists-section">
               <div class="main-section-img main-section-artists"></div>
@@ -25,8 +27,45 @@
               <h2 class="text text-main-section">picture quiz</h2>
             </div>
           </div>
+          <div class="settings-section">
+            <div class="settings volume-section">
+              <div class="logo volume-logo"></div>
+              <div class="progress-bar progress-volume"></div>
+              <div class="volume-switcher"></div>
+              <div class="text volume-text">volume</div>
+            </div>
+            <div class="settings time-section">
+              <div class="logo time-logo"></div>
+              <div class="progress-bar progress-time"></div>
+              <div class="timer-switcher"></div>
+              <div class="time-progress-counter"></div>
+              <div class="text time-text">time</div>
+            </div>
+          </div>
+          <div class="categories-section">
+            <nav class="nav">
+              <div class="btn-home">
+                <button class="buttons buttons-home">Home</button>
+              </div>
+              <h2 class="title-category">categories</h2>
+              <div class="btn-score">
+                <button class="buttons buttons-score">Score</button>
+              </div>
+            </nav>
+            <div class="categories-content">
+              <div class="category-item">
+                <div class="item-context">
+                  <div class="item-number">1</div>
+                  <div class="item-score">9/10</div>
+                  <div class="item-name">landscape</div>
+                </div>
+                <div class="item-image"></div>
+              </div>
+            </div>
+          </div>
           <div class="button-wrapper">
             <button class="buttons buttons-settings">Settings</button>
+            <button class="buttons buttons-save">Save</button>
           </div>
         </div>
       </main>
@@ -43,5 +82,6 @@
       </footer>
     </div>
     <script src="/js/main.js"></script>
+    <script src="/js/categories.js"></script>
   </body>
 </html>

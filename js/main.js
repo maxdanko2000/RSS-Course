@@ -1,22 +1,43 @@
 const artistsSection = document.querySelector('.actists-section');
 const picturesSection = document.querySelector('.pictures-section');
-const mainContent = document.querySelector('.main-wrapper')
-const btnSettings = document.querySelector('button')
+const settingSection = document.querySelector('.settings-section')
+const mainContent = document.querySelector('.main-section')
+const btnSettings = document.querySelector('.buttons-settings')
+const btnSave = document.querySelector('.buttons-save')
+const categoryContent = document.querySelector('.categories-content');
+const categoryItem = document.querySelector('.category-item');
 
-function hideContent() {
-    mainContent.style.display = 'none';
+function spawnCategories() {
+    for (let i = 0; i < 12; i++) {
+        let category = document.createElement('div');
+        category.className = 'category-item'
+        category.innerHTML = categoryItem.innerHTML
+        categoryContent.appendChild(category);
+    }
 }
 
-function showContent() {
-    mainContent.style.display = 'block';
+spawnCategories();
+
+function hideMain() {
+    mainContent.style.display = 'none';
+    btnSettings.style.display = 'none'
+    btnSave.style.display = 'block'
+}
+
+function showMain() {
+    mainContent.style.display = '';
+    btnSettings.style.display = ''
+    btnSave.style.display = 'none'
 }
 
 function showSettings() {
-    hideContent();
+    hideMain();
+    settingSection.style.display = 'flex';
 }
 
 function hideSettings() {
-
+    settingSection.style.display = 'none';
+    showMain();
 }
 
 function addStyle() {
@@ -34,7 +55,7 @@ function showPictureCat() {
 function showArtistCat() {
 
 }
-
+btnSave.addEventListener('click', hideSettings)
 btnSettings.addEventListener('click', showSettings)
 picturesSection.addEventListener('click', showPictureCat)
 artistsSection.addEventListener('click', showArtistCat)
