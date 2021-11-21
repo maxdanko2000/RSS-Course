@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.buttons-home {}
+
+.title-category {}
+
+.categories-content {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+
+    width: 184px;
+    height: 300px;
+    flex-direction: column;
+}
+
+.item-context {}
+
+.item-number {}
+
+.item-score {}
+
+.item-name {}
+
+.item-image {
+    filter: none;
+    background-image: url('/assets/img/0.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
