@@ -30,15 +30,58 @@
           <div class="settings-section">
             <div class="settings volume-section">
               <div class="logo volume-logo"></div>
-              <div class="progress-bar progress-volume"></div>
-              <div class="volume-switcher"></div>
+              <div class="progress-bar progress-volume">
+                <button class="volume-label" title="Toggle sound"></button>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.02"
+                  value="0.00"
+                  class="progress"
+                  disabled=""
+                  style="
+                    background: linear-gradient(
+                      to right,
+                      dimgray 0%,
+                      dimgray 0%,
+                      rgb(229, 229, 229) 0%,
+                      rgb(229, 229, 229) 100%
+                    );
+                  "
+                />
+              </div>
+              <label for="check-volume" class="label label-volume"></label>
+              <h2 class="text text-volume">on/off</h2>
               <div class="text volume-text">volume</div>
             </div>
             <div class="settings time-section">
               <div class="logo time-logo"></div>
-              <div class="progress-bar progress-time"></div>
-              <div class="timer-switcher"></div>
-              <div class="time-progress-counter"></div>
+              <div class="progress-bar progress-time">
+                <input
+                  type="range"
+                  min="5"
+                  max="30"
+                  step="5"
+                  value="5"
+                  class="progress progress__timer"
+                  disabled=""
+                  style="
+                    background: linear-gradient(
+                      to right,
+                      dimgray 0%,
+                      dimgray 0%,
+                      rgb(229, 229, 229) 0%,
+                      rgb(229, 229, 229) 100%
+                    );
+                  "
+                />
+                <input class="check" id="check" type="checkbox" null="" />
+                <div class="text text__timer-value">10</div>
+              </div>
+
+              <label for="check" class="label"></label>
+              <h2 class="text text-label">on/off</h2>
               <div class="text time-text">time</div>
             </div>
           </div>
@@ -81,7 +124,7 @@
         ></a>
       </footer>
     </div>
+    <!-- <script src="/dist/bundle.js"></script> -->
     <script src="/js/main.js"></script>
-    <script src="/js/categories.js"></script>
   </body>
 </html>

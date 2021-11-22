@@ -1,3 +1,7 @@
+.categories-section {
+    display: none;
+}
+
 .nav {
     display: flex;
     width: 100%;
