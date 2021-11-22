@@ -24,6 +24,15 @@ function spawnCategories() {
     }
 }
 
+function spawnQuestions() {
+    for (let i = 0; i < 12; i++) {
+        let question = document.createElement('div');
+        question.className = 'question-item'
+        question.innerHTML = questionItem.innerHTML
+        questionContent.appendChild(question);
+    }
+}
+
 function showArtistCat() {
     spawnCategories();
     hideMain();
@@ -31,7 +40,9 @@ function showArtistCat() {
 }
 
 function showPictureCat() {
-
+    spawnCategories();
+    hideMain();
+    categorySection.style.display = 'block';
 }
 
 function hideMain() {
@@ -57,6 +68,14 @@ function showSettings() {
 function hideSettings() {
     settingSection.style.display = 'none';
     showMain();
+}
+
+function hidePictureCat() {
+    categorySection.style.display = 'none';
+}
+
+function showPictureQuestions() {
+
 }
 
 btnHome.addEventListener('click', showMain)
