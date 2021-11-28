@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.header .more_inf {
+.header .more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -106,7 +106,7 @@ label[for='new-task'] {
     margin: 0 0 20px;
 }
 
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -140,18 +140,18 @@ li>input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
