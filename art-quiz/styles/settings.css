@@ -1,0 +1,86 @@
+.settings-section {
+    display: none;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.settings {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding-top: 50px;
+    width: 415px;
+}
+
+.check {
+    display: none;
+}
+
+.label {
+    border: 1px solid dimgray;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.volume__label--second {
+    background-image: url('/assets/main-img/volume-off.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    height: 30px;
+    width: 19px;
+}
+
+.progress {
+    -webkit-appearance: none;
+    background: linear-gradient(90deg, dimgray 0, dimgray 40%, #e5e5e5 0, #e5e5e5);
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 6px;
+    outline: none;
+    transition: all .45s ease-in;
+    width: 270px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+}
+
+.volume-label {
+    display: flex;
+    background-color: unset;
+    background-image: url('/assets/main-img/volume-on.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    height: 100px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+}
+
+.volume-logo {
+    width: 100px;
+    height: 81.58px;
+    background-image: url('/assets/main-img/volume-on.png');
+}
+
+
+
+.time-logo {
+    width: 85px;
+    height: 100px;
+    background-image: url('/assets/main-img/time-logo.png');
+}
